@@ -2,7 +2,7 @@
   "profiles": {
     "printfileln": {
       "commandName": "Project",
-      "commandLineArgs": "./test.txt 127"
+      "commandLineArgs": "./test.txt 9999999999 true"
     }
   }
 }

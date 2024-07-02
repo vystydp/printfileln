@@ -3,7 +3,6 @@ using System.Text;
 
 public static class ProgramHelpers
 {
-    internal const int TestLinesNum = 999999; 
     internal const int ChunkSize = 100; 
 
     public static void CreateIndexFile(string filePath, string indexPath)
@@ -14,7 +13,7 @@ public static class ProgramHelpers
             using (var writer = new BinaryWriter(File.Open(indexPath, FileMode.Create)))
             {
                 long currentOffset = 0;
-                int lineCount = 0;
+                long lineCount = 0;
                 string line;
 
                 while ((line = reader.ReadLine()) != null)
@@ -40,28 +39,28 @@ public static class ProgramHelpers
         }
     }
 
-    public static string GetLine(string filePath, string indexPath, int lineIndex)
+    public static string GetLine(string filePath, string indexPath, long lineIndex)
     {
         long startOffset = 0;
-        int totalLines = 0;
-        int lineOffsetInChunk = lineIndex % ChunkSize;
+        long totalLines = 0;
+        long lineOffsetInChunk = lineIndex % ChunkSize;
 
         using (var fileStream = File.Open(indexPath, FileMode.Open)) 
         {
             using (var indexReader = new BinaryReader(fileStream, Encoding.UTF8, false))
             {
-                long totalOffsets = (indexReader.BaseStream.Length - sizeof(int)) / sizeof(long);
+                long totalOffsets = (indexReader.BaseStream.Length - sizeof(long)) / sizeof(long);
                 long chunkCount = totalOffsets - 1;
 
-                indexReader.BaseStream.Seek(indexReader.BaseStream.Length - sizeof(int), SeekOrigin.Begin);
-                totalLines = indexReader.ReadInt32();
+                indexReader.BaseStream.Seek(indexReader.BaseStream.Length - sizeof(long), SeekOrigin.Begin);
+                totalLines = indexReader.ReadInt64();
 
                 if (lineIndex >= totalLines)
                 {
                     throw new IndexOutOfRangeException("Line index out of file scope");
                 }
 
-                int chunkIndex = lineIndex / ChunkSize;
+                long chunkIndex = lineIndex / ChunkSize;
 
                 indexReader.BaseStream.Seek(chunkIndex * sizeof(long), SeekOrigin.Begin);
                 startOffset = indexReader.ReadInt64();
@@ -82,18 +81,5 @@ public static class ProgramHelpers
         }
 
         return String.Empty;
-    }
-
-    public static string[] GenerateRandomLines()
-    {
-        string[] lines = new string[TestLinesNum];
-        for (int i = 0; i < TestLinesNum; i++)
-        {
-            int[] range = (i < TestLinesNum / 3)
-                ? [1, 1000] : (i < TestLinesNum / 2)
-                ? [1000, 100000] : [100000, TestLinesNum];
-            lines[i] = $"test {i}" + new Random().Next(range[0], range[1]);
-        }
-        return lines;
     }
 }

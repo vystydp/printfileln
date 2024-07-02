@@ -12,3 +12,4 @@ C:\Users\vysty\source\repos\printfileln\printfileln\obj\Release\net8.0\refint\pr
 C:\Users\vysty\source\repos\printfileln\printfileln\obj\Release\net8.0\printfileln.pdb
 C:\Users\vysty\source\repos\printfileln\printfileln\obj\Release\net8.0\printfileln.genruntimeconfig.cache
 C:\Users\vysty\source\repos\printfileln\printfileln\obj\Release\net8.0\ref\printfileln.dll
+C:\Users\vysty\source\repos\printfileln\printfileln\obj\Release\net8.0\printfileln.sourcelink.json

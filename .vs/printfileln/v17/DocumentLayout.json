@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\vysty\\source\\repos\\printfileln\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{100D2116-174C-4A50-8DEB-77C42FA0377B}|printfileln\\printfileln.csproj|c:\\users\\vysty\\source\\repos\\printfileln\\printfileln\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{100D2116-174C-4A50-8DEB-77C42FA0377B}|printfileln\\printfileln.csproj|solutionrelative:printfileln\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{100D2116-174C-4A50-8DEB-77C42FA0377B}|printfileln\\printfileln.csproj|c:\\users\\vysty\\source\\repos\\printfileln\\printfileln\\programhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{100D2116-174C-4A50-8DEB-77C42FA0377B}|printfileln\\printfileln.csproj|solutionrelative:printfileln\\programhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{100D2116-174C-4A50-8DEB-77C42FA0377B}|printfileln\\printfileln.csproj|c:\\users\\vysty\\source\\repos\\printfileln\\printfileln\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{100D2116-174C-4A50-8DEB-77C42FA0377B}|printfileln\\printfileln.csproj|solutionrelative:printfileln\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{100D2116-174C-4A50-8DEB-77C42FA0377B}|printfileln\\printfileln.csproj|c:\\users\\vysty\\source\\repos\\printfileln\\printfileln\\printfileln.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -34,31 +34,30 @@
               "RelativeToolTip": "printfileln\\printfileln.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-01T14:14:19.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T14:14:19.534Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vysty\\source\\repos\\printfileln\\printfileln\\Program.cs",
               "RelativeDocumentMoniker": "printfileln\\Program.cs",
               "ToolTip": "C:\\Users\\vysty\\source\\repos\\printfileln\\printfileln\\Program.cs",
               "RelativeToolTip": "printfileln\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwDEAAAAJAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T08:24:00.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProgramHelpers.cs",
               "DocumentMoniker": "C:\\Users\\vysty\\source\\repos\\printfileln\\printfileln\\ProgramHelpers.cs",
               "RelativeDocumentMoniker": "printfileln\\ProgramHelpers.cs",
               "ToolTip": "C:\\Users\\vysty\\source\\repos\\printfileln\\printfileln\\ProgramHelpers.cs",
               "RelativeToolTip": "printfileln\\ProgramHelpers.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAwAAAAnAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAUwE0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T13:33:27.164Z",
               "EditorCaption": ""

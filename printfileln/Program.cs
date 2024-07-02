@@ -13,17 +13,18 @@ class Program
 
         if (args.Length == 3 && args[2] == "true")
         {
-            using (StreamWriter outputFile = new StreamWriter("test.txt"))
+            using (StreamWriter writer = new StreamWriter("test.txt"))
             {
-                string[] testLines = ProgramHelpers.GenerateRandomLines();
-                foreach (string ln in testLines)
-                    outputFile.WriteLine(ln);
+                for (long i = 1; i <= 1000000; i++)
+                {
+                    writer.WriteLine($"Row {i}");
+                }
             }
             File.Delete("test.txt.idx");
         }
 
         string filePath = args[0];
-        int lineIndex = int.Parse(args[1]);
+        long lineIndex = int.Parse(args[1]);
 
         string indexPath = filePath + ".idx";
         try
