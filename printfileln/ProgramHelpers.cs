@@ -3,8 +3,8 @@ using System.Text;
 
 public static class ProgramHelpers
 {
-    internal const int TestLinesNum = 999999; //Number of lines in generated test file
-    internal const int ChunkSize = 100; //Number of lines in generated test file
+    internal const int TestLinesNum = 999999; 
+    internal const int ChunkSize = 100; 
 
     public static void CreateIndexFile(string filePath, string indexPath)
     {
