@@ -1,0 +1,14 @@
+C:\Users\vysty\source\repos\printfileln\printfileln\bin\Debug\net8.0\printfileln.exe
+C:\Users\vysty\source\repos\printfileln\printfileln\bin\Debug\net8.0\printfileln.deps.json
+C:\Users\vysty\source\repos\printfileln\printfileln\bin\Debug\net8.0\printfileln.runtimeconfig.json
+C:\Users\vysty\source\repos\printfileln\printfileln\bin\Debug\net8.0\printfileln.dll
+C:\Users\vysty\source\repos\printfileln\printfileln\bin\Debug\net8.0\printfileln.pdb
+C:\Users\vysty\source\repos\printfileln\printfileln\obj\Debug\net8.0\printfileln.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vysty\source\repos\printfileln\printfileln\obj\Debug\net8.0\printfileln.AssemblyInfoInputs.cache
+C:\Users\vysty\source\repos\printfileln\printfileln\obj\Debug\net8.0\printfileln.AssemblyInfo.cs
+C:\Users\vysty\source\repos\printfileln\printfileln\obj\Debug\net8.0\printfileln.csproj.CoreCompileInputs.cache
+C:\Users\vysty\source\repos\printfileln\printfileln\obj\Debug\net8.0\printfileln.dll
+C:\Users\vysty\source\repos\printfileln\printfileln\obj\Debug\net8.0\refint\printfileln.dll
+C:\Users\vysty\source\repos\printfileln\printfileln\obj\Debug\net8.0\printfileln.pdb
+C:\Users\vysty\source\repos\printfileln\printfileln\obj\Debug\net8.0\printfileln.genruntimeconfig.cache
+C:\Users\vysty\source\repos\printfileln\printfileln\obj\Debug\net8.0\ref\printfileln.dll

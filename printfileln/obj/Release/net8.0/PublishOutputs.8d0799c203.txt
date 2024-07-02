@@ -1,0 +1,5 @@
+C:\Users\vysty\source\repos\printfileln\printfileln\bin\Release\net8.0\publish\printfileln.exe
+C:\Users\vysty\source\repos\printfileln\printfileln\bin\Release\net8.0\publish\printfileln.dll
+C:\Users\vysty\source\repos\printfileln\printfileln\bin\Release\net8.0\publish\printfileln.deps.json
+C:\Users\vysty\source\repos\printfileln\printfileln\bin\Release\net8.0\publish\printfileln.runtimeconfig.json
+C:\Users\vysty\source\repos\printfileln\printfileln\bin\Release\net8.0\publish\printfileln.pdb

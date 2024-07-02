@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "printfileln": {
+      "commandName": "Project",
+      "commandLineArgs": "./test.txt 127"
+    }
+  }
+}
